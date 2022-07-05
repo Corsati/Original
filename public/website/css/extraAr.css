@@ -1,0 +1,83 @@
+.myCourse .courseVedio .vedioCont .controllers {
+    flex-direction: row-reverse;
+}
+
+.myCourse .courseVedio .vedioCont .controllers .duration {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.myCourse .courseVedio .vedioCont .controllers .volumeCont, .myCourse .courseVedio .vedioCont .controllers .dropCont {
+    flex-direction: row-reverse;
+}
+
+
+
+#scroll-top {
+    left: 15px;
+    right: auto;
+}
+
+@media(max-width: 767px) {
+    .owl-carousel .owl-stage-outer {
+        display: block;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px) {
+
+    body header .mr-27 {
+        margin-right: 0;
+        margin-left: 25px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        display: block;
+    }
+
+    .sliderBg .sliderText {
+        margin-left: 15px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    .mr-27 {
+        margin-right: 0;
+        margin-left: 14px;
+    }
+
+
+    .sliderBg .sliderText {
+        margin-left: 55px;
+    }
+
+}
+
+.teacherCotent .content .lightGrayBg .institutes .tabCourse .courseText .rightDiv .startsBlock .stars span
+{
+    font-size: 10px!important;
+    margin: 2px!important;
+}
+.teacherCotent .content .lightGrayBg .institutes .tabCourse .courseText .rightDiv .startsBlock .stars i
+{
+    /*font-size: 10px!important;*/
+    /*margin: 2px!important;*/
+
+}
+/*.resultsContainer .results .institutesContainer .institutes .courserBlock .courseText .rightDiv .startsBlock .stars{    display: flex;!important;}*/
+
+.courseContent #accordion .card .card-header button .headInfo span:first-child{
+    margin-left: 0px !important;
+}
+
+.dropdown.bootstrap-select.w-100 > small {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    font-size: 12px;
+}
+
+
+#popular-categories > a {
+    margin: 5px 5px;
+}

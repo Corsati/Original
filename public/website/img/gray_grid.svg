@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.018" height="19.107" viewBox="0 0 24.018 19.107">
+  <g id="gray_grid" transform="translate(-1631.991 -743.101)">
+    <g id="grid_1_" data-name="grid (1)" transform="translate(1631.991 743.101)">
+      <path id="Path_713" data-name="Path 713" d="M0,0H5.315V5.315H0ZM0,0" fill="#bababa"/>
+      <path id="Path_714" data-name="Path 714" d="M149.3,0h17.015V5.315H149.3Zm0,0" transform="translate(-142.293)" fill="#bababa"/>
+      <path id="Path_715" data-name="Path 715" d="M0,147.008H5.315v5.315H0Zm0,0" transform="translate(0 -140.112)" fill="#bababa"/>
+      <path id="Path_716" data-name="Path 716" d="M149.3,147.008h17.015v5.315H149.3Zm0,0" transform="translate(-142.293 -140.112)" fill="#bababa"/>
+      <path id="Path_717" data-name="Path 717" d="M0,294.012H5.315v5.315H0Zm0,0" transform="translate(0 -280.219)" fill="#bababa"/>
+      <path id="Path_718" data-name="Path 718" d="M149.3,294.012h17.015v5.315H149.3Zm0,0" transform="translate(-142.293 -280.219)" fill="#bababa"/>
+    </g>
+  </g>
+</svg>

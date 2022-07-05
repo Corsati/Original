@@ -1,0 +1,733 @@
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: "Cairo", sans-serif;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+.owl-carousel .startsBlock {
+  justify-content: flex-end;
+}
+
+.fadeInRight {
+  animation-name: fadeInLeft !important;
+}
+
+.fadeInLeft {
+  animation-name: fadeInRight !important;
+}
+
+.hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
+  -webkit-transform: translateX(-8px);
+  transform: translateX(-8px);
+}
+
+#scroll-top {
+  right: 15px;
+}
+
+.steps .circleBlock:first-child {
+  margin-right: 0;
+  margin-left: 50px;
+}
+.steps .circleBlock.qual:first-child {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+.modal-header .close {
+  margin: -1rem auto -1rem -1rem;
+}
+
+.titles div {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.titles div .deleteTitle {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.resultsContainer .results {
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+.custom-checkbox {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+.custom-checkbox .custom-control-label {
+  padding-left: 0;
+  padding-right: 15px;
+}
+.custom-checkbox .custom-control-label::after {
+  left: auto;
+  right: -1.5rem;
+}
+.custom-checkbox .custom-control-label::before {
+  left: auto;
+  right: -1.5rem;
+}
+
+.custom-control-input {
+  left: auto;
+  right: 0;
+}
+
+.mr-18 {
+  margin-right: 0;
+  margin-left: 18px;
+}
+
+.mr-27 {
+  margin-right: 0;
+  margin-left: 27px;
+}
+
+.mr-1, .mx-1 {
+  margin-right: 0 !important;
+  margin-left: 0.25rem !important;
+}
+
+.mr-2, .mx-2 {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+.mr-3, .mx-3 {
+  margin-right: 0 !important;
+  margin-left: 1rem !important;
+}
+
+.mr-4, .mx-4 {
+  margin-right: 0 !important;
+  margin-left: 1.5rem !important;
+}
+
+.mr-md-2, .mx-md-2 {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+.dropdown-toggle::after {
+  margin-left: 0;
+  margin-right: 0.255em;
+}
+
+header .catLink ul {
+  left: auto;
+  right: 0;
+}
+header .catLink ul li a img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+header .catLink ul li a i {
+  transform: rotateY(-180deg);
+}
+header .catLink ul li:hover > ul {
+  transform: translate(-45px, 0);
+}
+header .catLink ul.sub-menu ul {
+  left: auto;
+  right: 169px;
+  transform: translate(-45px, 20px);
+}
+header .catLink ul.sub-menu ul:hover {
+  transform: translate(-45px, 0);
+}
+
+.searchDiv a {
+  right: auto;
+  left: 25px;
+  transform: translateY(-50%) rotateY(-180deg);
+}
+
+.price span {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.institutesContainer .institutes .courserBlock .info div img {
+  margin-right: 0;
+  margin-left: 7px;
+}
+
+.resultsContainer .results .bottomNav a {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.resultsContainer .results .bottomNav a:last-child {
+  margin-left: 0;
+}
+
+.categoriesLinks li {
+  margin-right: 0;
+  margin-left: 18px;
+}
+
+.aboutBg .orangeBg a img {
+  margin-right: 0;
+  margin-left: 10px;
+  transform: rotateY(-180deg);
+}
+
+.breadcrumb .breadcrumb-item a i {
+  margin-right: 0;
+  margin-left: 20px;
+  transform: rotateY(-180deg);
+}
+.breadcrumb .breadcrumb-item + .breadcrumb-item {
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 0;
+  padding-left: 0.5rem;
+}
+
+.cartContainer .cartItems .itemsCont .item img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.cartContainer .payment {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.advertiseLinks .socLinks div {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.register img {
+  left: auto;
+  right: 0;
+  transform: rotateY(-180deg);
+}
+
+.footLinks div button img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.footer ul li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.footer ul li:after {
+  right: auto;
+  left: -11px;
+}
+.footer ul li:last-child {
+  margin-left: 0;
+}
+.footer .logo {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+form .monthYear .bootstrap-select:first-child {
+  margin-right: 0;
+  margin-left: 20px;
+}
+form .PayOptions img {
+  margin-right: 0;
+  margin-left: 15px;
+}
+form .PayOptions img:last-child {
+  margin-left: 0;
+}
+
+.development img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.coursesContainer.subCatContainer .item span {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.subCatContainer #owl-demo4 .item, .subCatContainer #owl-demo6 .item {
+  justify-content: flex-end;
+}
+.subCatContainer #owl-demo6 .item .startsBlock {
+  justify-content: flex-end;
+}
+
+.categoryCont .listMenu, .categoryCont .listMenuCer, .categoryCont .listMenuTeacher {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.categoryCont .gridMenu, .categoryCont .gridMenuCer, .categoryCont .gridMenuTeacher {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.filterBtns .filter img {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.filterBtns .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.learnNext #owl-demo1 .owl-nav, .learnNext #owl-demo2 .owl-nav, .learnNext #owl-demo3 .owl-nav, .learnNext #owl-demo5 .owl-nav, .learnNext #owl-demo4 .owl-nav, .learnNext #owl-demo6 .owl-nav, .learnNext #owl-demo7 .owl-nav {
+  display: block;
+}
+.learnNext #owl-demo1 .owl-nav .owl-next, .learnNext #owl-demo2 .owl-nav .owl-next, .learnNext #owl-demo3 .owl-nav .owl-next, .learnNext #owl-demo5 .owl-nav .owl-next, .learnNext #owl-demo4 .owl-nav .owl-next, .learnNext #owl-demo6 .owl-nav .owl-next, .learnNext #owl-demo7 .owl-nav .owl-next {
+  display: none;
+}
+.learnNext #owl-demo1 .owl-nav .owl-prev, .learnNext #owl-demo2 .owl-nav .owl-prev, .learnNext #owl-demo3 .owl-nav .owl-prev, .learnNext #owl-demo5 .owl-nav .owl-prev, .learnNext #owl-demo4 .owl-nav .owl-prev, .learnNext #owl-demo6 .owl-nav .owl-prev, .learnNext #owl-demo7 .owl-nav .owl-prev {
+  display: block;
+}
+.learnNext #owl-demo1 .startsBlock .stars, .learnNext #owl-demo2 .startsBlock .stars, .learnNext #owl-demo3 .startsBlock .stars, .learnNext #owl-demo5 .startsBlock .stars, .learnNext #owl-demo4 .startsBlock .stars, .learnNext #owl-demo6 .startsBlock .stars, .learnNext #owl-demo7 .startsBlock .stars {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.learnNext #owl-demo1 .price span, .learnNext #owl-demo2 .price span, .learnNext #owl-demo3 .price span, .learnNext #owl-demo5 .price span, .learnNext #owl-demo4 .price span, .learnNext #owl-demo6 .price span, .learnNext #owl-demo7 .price span {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.teacherHeader .container .cartDiv {
+  border-left: 2px solid #f5f5f5;
+  border-right: 0;
+}
+
+.myInboxCont .chatContainer {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.myInboxCont .chatContainer .chatBox .rightCont .rightText {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 0;
+}
+.myInboxCont .chatContainer .chatBox .rightCont .time {
+  text-align: left;
+}
+.myInboxCont .chatContainer .chatBox .leftCont .leftText {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 0;
+}
+.myInboxCont .chatContainer .chatBox .leftCont .time {
+  text-align: right;
+}
+.myInboxCont .chatContainer .chatFooter form .form-group input#msg {
+  padding: 10px 20px 10px 130px;
+}
+.myInboxCont .chatContainer .chatFooter form .orangeBtn {
+  right: auto;
+  left: 10px;
+}
+.myInboxCont .chatContainer .chatFooter form .paperClip {
+  right: auto;
+  left: 100px;
+}
+
+.courseInfo .courseText {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.courseInfo .courseText .info div img {
+  margin-right: 0;
+  margin-left: 7px;
+}
+.courseInfo .courseText .btns div a:first-child {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.courseInfo .courseVedio .card {
+  left: 0;
+}
+.courseInfo .courseVedio .card .card-body ul li img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.courseLearn .learnUl ul li span {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.startsBlock .stars {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.courseContent .info {
+  padding-right: 0;
+  padding-left: 40px;
+}
+.courseContent .info a i {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.courseContent #accordion .card .card-header {
+  padding: 10px 20px 10px 40px;
+}
+.courseContent #accordion .card .card-header button .headInfo span:first-child {
+  margin-right: 0;
+  margin-left: 40px;
+}
+.courseContent #accordion .card .card-header button .headTitle span {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.courseContent #accordion .card .card-body ul li {
+  padding: 10px 25px 10px 40px;
+}
+.courseContent .viewMore i {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.courseContent .requirment li span {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.courseContent .instructorCard .media .media-body h5 > span {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.courseContent .instructorCard .media .media-body .info div img {
+  margin-right: 0;
+  margin-left: 7px;
+}
+.courseContent .studentsRating .rates div.leftDiv {
+  margin-right: 0;
+  margin-left: 95px;
+}
+.courseContent .popularInstructors .price span {
+  margin-left: 5px;
+  margin-right: 0;
+}
+.courseContent .popularInstructors .startsBlock .stars {
+  margin-right: 10px;
+  margin-left: 0;
+}
+.courseContent .studentFeedBack .media .media-body h5 > span {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.resultsContainer .results .institutesContainer .institutes .courserBlock .courseText .rightDiv .startsBlock .stars {
+  margin-left: 0;
+}
+
+.teacherCotent .sideMenu {
+  padding: 60px 30px 60px 0;
+  right: 0;
+  left: auto;
+}
+.teacherCotent .sideMenu ul li {
+  border-right: 0;
+  border-left: 4px solid transparent;
+}
+.teacherCotent .sideMenu ul li.active, .teacherCotent .sideMenu ul li:hover {
+  border-right: 0;
+  border-left: 4px solid #ff7600;
+}
+.teacherCotent .sideMenu ul li a {
+  padding: 0 40px 0 0;
+}
+.teacherCotent .sideMenu ul li a img {
+  left: auto;
+  right: 0;
+}
+.teacherCotent .sideMenu .gradientBg {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.teacherCotent .content .lightGrayBg.createCourse .steps .circleBlock:first-child:before {
+  left: auto;
+  right: 75px;
+}
+.teacherCotent .content .lightGrayBg.createCourse .steps .circleBlock:nth-child(2):before {
+  right: 75px !important;
+  left: auto;
+}
+.teacherCotent .content .lightGrayBg.createCourse .accDetails form .form-group .minus, .teacherCotent .content .lightGrayBg.createCourse .accDetails form .form-group .add {
+  right: auto;
+  left: 24px;
+}
+.teacherCotent .content .lightGrayBg.createCourse .accDetails form .form-group .positionSpan {
+  right: auto;
+  left: 20px;
+}
+.teacherCotent .content .lightGrayBg.createCourse .accDetails form .rowSpace .form-group .form-control.plusInput {
+  padding: 10px 20px 10px 55px;
+}
+.teacherCotent .content .lightGrayBg .performance .item img {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.teacherCotent .content .lightGrayBg .performance .item span {
+  margin-right: 0;
+}
+.teacherCotent .content .lightGrayBg .performance.resources .item img {
+  margin-right: 0;
+  margin-left: 25px;
+}
+.teacherCotent .content .lightGrayBg .myCourses .gradientBg {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.favouriteCont .institutesContainer .institutes .courserBlock .courseText .rightCont .rightDiv {
+  margin-right: 0;
+  margin-left: 25px;
+}
+
+.topCat .categories .cat.viewAll i {
+  transform: rotateY(-180deg);
+}
+
+.sliderBg {
+  /*background: url(../img/sliderAr.webp) no-repeat center center;*/
+}
+.sliderBg .sliderText {
+  margin-right: 0;
+  margin-left: 145px;
+}
+
+.myCourses .welcome {
+  margin-left: 0;
+  margin-right: 15px;
+}
+.myCourses .coursesLink i {
+  margin-left: 0;
+  margin-right: 5px;
+  transform: rotateY(-180deg);
+}
+
+.recommended .nav-pills .nav-item {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.recommended .viewAll i {
+  margin-left: 0;
+  margin-right: 5px;
+  transform: rotateY(-180deg);
+}
+.recommended .price span {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.institutesContainer .price span {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.myCourse .courseText .rightDiv .btns {
+  margin-right: 0;
+  margin-left: 55px;
+}
+.myCourse .courseText .rightDiv .btns a:first-child {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.myCourse .courseVedio .courseContent #accordion .card .card-body ul li.lightGrayBg {
+  padding: 7px 25px 7px 40px;
+}
+.myCourse .courseVedio .courseContent #accordion .card .card-body ul li.lightGrayBg img {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.chatContainer .chatBox .rightCont .rightText {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 0;
+}
+.chatContainer .chatBox .rightCont .time {
+  text-align: left;
+}
+.chatContainer .chatBox .leftCont .leftText {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 0;
+}
+.chatContainer .chatBox .leftCont .time {
+  text-align: right;
+}
+.chatContainer .chatFooter form .form-group input#msg {
+  padding: 10px 20px 10px 130px;
+}
+.chatContainer .chatFooter form .orangeBtn {
+  right: auto !important;
+  left: 10px;
+}
+.chatContainer .chatFooter form .paperClip {
+  right: auto !important;
+  left: 100px;
+}
+
+.myFeedBack .startsBlock .rating-box {
+  margin-right: 0;
+  margin-left: 18px;
+}
+
+.myCoursesTabs .courseContent .courseTabs .tab-content .resultsContainer .results .institutesContainer .institutes .media .media-body .pdfImg {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.accDetails .changeImg img {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.settingsCont .generalSettings {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.userDash .coursesContainer .item {
+  padding: 10px 60px 10px 20px;
+}
+.userDash .coursesContainer .item img {
+  left: auto;
+  right: 20px;
+}
+
+@media (max-width: 767px) {
+  body header .overlay {
+    transform-origin: left;
+  }
+  body header .menuBar a.cart {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  body header .menu {
+    transform-origin: right;
+    right: -100%;
+    left: auto;
+  }
+  body header .menu.ulDir {
+    left: auto;
+    right: 0;
+    text-align: right;
+  }
+  body header .menu .user img {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  body header .menu .catLink i {
+    margin-right: 0 !important;
+    margin-left: 8px !important;
+  }
+  body .cartContainer .payment {
+    margin-left: 0;
+  }
+  body .myInboxCont .chatContainer {
+    margin-right: 0;
+  }
+  body .myInboxCont .chatContainer .chatFooter form .form-group input#msg {
+    padding: 10px 20px 10px 90px;
+  }
+  body .myInboxCont .chatContainer .chatFooter form .paperClip {
+    left: 70px;
+  }
+  body .courseInfo .courseText {
+    margin-left: 0;
+  }
+  body .courseLearn .learnUl ul li span {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  body .courseContent .info {
+    padding-left: 0;
+  }
+  body .courseContent #accordion .card .card-header button .headTitle span {
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  body .courseContent #accordion .card .card-header button .headInfo span:first-child {
+    margin-right: 0;
+    margin-left: 12px;
+  }
+  body .moreCourses #owl-demo7 .item .startsBlock {
+    justify-content: flex-end;
+  }
+  body .myCourses div > div .courserBlock {
+    margin-left: 0;
+  }
+  body .learnNext #owl-demo1 .startsBlock, body .learnNext #owl-demo2 .startsBlock, body .learnNext #owl-demo3 .startsBlock, body .learnNext #owl-demo5 .startsBlock, body .learnNext #owl-demo4 .startsBlock, body .learnNext #owl-demo6 .startsBlock, body .learnNext #owl-demo7 .startsBlock {
+    justify-content: flex-end;
+  }
+  body .myCourse .courseText .rightDiv .btns {
+    margin-left: 5px;
+  }
+  body .myCourse .courseText .rightDiv .btns a:first-child {
+    margin-left: 5px;
+  }
+  body .courseContent #accordion .card .card-body ul li {
+    padding: 10px 15px 10px 10px;
+  }
+  body .chatContainer .chatFooter form .form-group input#msg {
+    padding: 10px 20px 10px 90px;
+  }
+  body .chatContainer .chatFooter form .paperClip {
+    left: 70px;
+  }
+  body .resultsContainer .results {
+    margin-right: 0;
+  }
+  body .resultsContainer .results .titles div {
+    margin-left: 0;
+  }
+  body .settingsCont .generalSettings {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mr-18 {
+    margin-right: 0 !important;
+  }
+
+  .mr-27 {
+    margin-right: 0 !important;
+  }
+
+  body .myInboxCont .chatContainer {
+    margin-right: 0;
+  }
+  body .teacherCotent .sideMenu {
+    padding: 40px 15px 40px 0;
+  }
+  body .teacherCotent .sideMenu ul li a {
+    padding: 0 30px 0 0;
+  }
+  body .learnNext #owl-demo1 .startsBlock, body .learnNext #owl-demo2 .startsBlock, body .learnNext #owl-demo3 .startsBlock, body .learnNext #owl-demo5 .startsBlock, body .learnNext #owl-demo4 .startsBlock, body .learnNext #owl-demo6 .startsBlock, body .learnNext #owl-demo7 .startsBlock {
+    justify-content: flex-end;
+  }
+  body .myCourse .courseVedio .courseContent #accordion .card .card-body ul li {
+    padding: 10px 25px 10px 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mr-18 {
+    margin-right: 0 !important;
+    margin-left: 11px;
+  }
+
+  .register .regText {
+    margin: 0 210px 0 auto;
+  }
+
+  .myInboxCont .chatContainer {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .pr-120 {
+    padding-right: 3rem !important;
+    padding-left: 120px !important;
+  }
+}
+
+/*# sourceMappingURL=styleRTL.css.map */
